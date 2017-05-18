@@ -1,4 +1,4 @@
-https://travis-ci.org/adcroft/OM4_025_prepocessing_geothermal.svg?branch=master
+[![Build Status](https://travis-ci.org/adcroft/OM4_025_prepocessing_geothermal.svg?branch=master)](https://travis-ci.org/adcroft/OM4_025_prepocessing_geothermal)
 
 ## What this repository is for
 
