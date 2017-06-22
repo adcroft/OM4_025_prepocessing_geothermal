@@ -5,8 +5,10 @@ MD5_FILE = check.md5
 
 all: check
 
+.SECONDARY: OM4_025_v1.tgz
+
 # Interpolate geothermal data to ocean model grid
-geothermal_davies2013_v1.nc: $(GRID_FILE) $(DATA_FILE)
+geothermal_davies2013_v1.nc: $(DATA_FILE) | $(GRID_FILE)
 	python regrid_geothermal.py
 
 # Fetch/create model grid file (super-grid)
