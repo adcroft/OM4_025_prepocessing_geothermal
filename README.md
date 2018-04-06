@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/adcroft/OM4_025_prepocessing_geothermal.svg?branch=master)](https://travis-ci.org/adcroft/OM4_025_prepocessing_geothermal)
+[![Build Status](https://travis-ci.org/adcroft/OM4_025_preprocessing_geothermal.svg?branch=master)](https://travis-ci.org/adcroft/OM4_025_preprocessing_geothermal)
 
 ## What this repository is for
 
@@ -18,7 +18,7 @@ make
 - Fetches [another repository](https://github.com/adcroft/convert_Davies_2013) that
   downloads the supplemental material from Davies 2013 and converts the data to
   portable netcdf format.
-- Fetches the OM4 0.25 degree (this is generated in a specific environment which is
+- Fetches the OM4 0.25 degree grid (this is generated in a specific environment which is
   not yet running under Travis so is currently downloaded from an ftp server).
 - Interpolates the data and writes a new netcdf file.
 - Checks the md5sum of generated files match.
